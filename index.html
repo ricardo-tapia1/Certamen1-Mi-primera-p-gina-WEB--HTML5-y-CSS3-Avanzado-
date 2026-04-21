@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeFake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<input type="radio" name="filtro-global" id="filtro-todos" checked>
+<input type="radio" name="filtro-global" id="filtro-fuego">
+<input type="radio" name="filtro-global" id="filtro-agua">
+<input type="radio" name="filtro-global" id="filtro-planta">
+<input type="radio" name="filtro-global" id="filtro-siniestro">
+
+<header>
+    <div class="logo">
+        <a href="#Pokedex"><h1 class="logo-animate">PokeFake Wiki</h1></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="https://www.reddit.com/r/pokemonshowdown/?solution=18a41aa47752d90418a41aa47752d904&js_challenge=1&token=bbbe4bf1c9a2b5160829c4be34da58615cc167c9c241fb16a021e0078e65d978&jsc_orig_r=&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc" target="_blank">Foro</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="Pokedex" class="section-container">
+        <div class="header-bienvenida">
+            <h2 class="titulo-bienvenida">¡Bienvenido a la Fake Pokedex!</h2>
+            
+            <div class="filtros-clasicos">
+                <span>Filtrar por:</span>
+                <label for="filtro-todos" class="btn-filtro-clasico">Todos</label>
+                <label for="filtro-fuego" class="btn-filtro-clasico">Fuego</label>
+                <label for="filtro-agua" class="btn-filtro-clasico">Agua</label>
+                <label for="filtro-planta" class="btn-filtro-clasico">Planta</label>
+                <label for="filtro-siniestro" class="btn-filtro-clasico">Siniestro</label>
+            </div>
+        </div>
+
+        <h1 style="text-align: center;">Regiones de esta wiki</h1>
+        <div class="grid-regiones">
+            <article class="Info_Region card-animate"> 
+                <h2>Región Kanto</h2>                    
+                <p>La región de Kanto es el escenario principal de la primera generación de Pokémon (Rojo/Azul/Amarillo), basada en la zona geográfica real de Kantō en Japón.</p>              
+                <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5b/latest/20180712231931/Mapa_de_Kanto_LGPE.png/800px-Mapa_de_Kanto_LGPE.png" alt="Mapa Kanto" class="map-img">               
+            </article>
+
+            <article class="Info_Region card-animate">       
+                <h2>Región Kalos</h2>
+                <p>Inspirada en Francia y caracterizada por su enfoque en la belleza, la elegancia y la innovación tecnológica. Con forma de estrella, presenta una gran diversidad geográfica.</p>
+                <img src="https://images.wikidexcdn.net/mwuploads/wikidex/7/7e/latest/20140917104423/Mapa_de_Kalos_XY_se%C3%B1alizado.png" alt="Mapa Kalos" class="map-img">
+            </article>
+
+            <article class="Info_Region card-animate">       
+                <h2>Región Hoenn</h2>
+                <p>Hoenn destaca por su abundante agua, rutas marinas y buceo. Basada en la isla japonesa de Kyūshū, esta tierra fértil une naturaleza y civilización.</p>
+                <img src="https://images.wikidexcdn.net/mwuploads/wikidex/a/af/latest/20150228012617/Mapa_de_Hoenn_ROZA.png" alt="Mapa Hoenn" class="map-img">
+            </article>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section id="Kanto" class="pokemon-section fade-in tipo-fuego">
+        <article class="pokemon_card">           
+            <div class="pokemon_header">
+                <h3>Charizard</h3>
+                <span class="gen-tag">GEN 1</span>
+            </div>
+            
+            <div class="pokemon_body">
+                <div class="pokemon_visual">
+                    <img src="https://media.tenor.com/9nBgEcu8e2IAAAAj/charizard-pokemon.gif" alt="Charizard" class="poke-gif">
+                </div>
+
+                <div class="tabs-logic">
+                    <input type="radio" name="tabs-char" id="char-1" checked>
+                    <input type="radio" name="tabs-char" id="char-2">
+                    <input type="radio" name="tabs-char" id="char-3">
+                    <input type="radio" name="tabs-char" id="char-4">
+                    <input type="radio" name="tabs-char" id="char-5">
+
+                    <nav class="tabs-header">
+                        <label for="char-1" class="tab-btn">Características</label>
+                        <label for="char-2" class="tab-btn">Ubicación</label>
+                        <label for="char-3" class="tab-btn">Evolución</label>
+                        <label for="char-4" class="tab-btn">Estadísticas</label>
+                        <label for="char-5" class="tab-btn">Efectividad</label>
+                    </nav>
+
+                    <div class="tabs-content">
+                        <div class="tab-panel panel-1">
+                            <p><strong>Descripción:</strong> Es una criatura orgullosa de tipo guerrero que vuela buscando oponentes fuertes. Su aliento de fuego es capaz de derretir rocas y alcanzar temperaturas de hasta 2000 °C.</p>
+                            <p><strong>Tipo:</strong> Fuego / Volador</p>
+                            <p><strong>Megaevolución:</strong> Mega-Charizard X e Y.</p>
+                        </div>
+                        <div class="tab-panel panel-2">
+                            <p><strong>Ubicación:</strong> No aparece en ninguna ruta, solo al escoger su primera variante al inicio del juego.</p>
+                        </div>
+                        <div class="tab-panel panel-3">
+                            <div class="evolution-flex">
+                                <img src="https://static.tumblr.com/6d5fad2410cb092840ad58aa00051d01/ozvqtky/N7Onxn9yb/tumblr_static_1orkl5uzm4n40w444k88gssso.gif" alt="Charmander" width="80">
+                                <span>&gt; Nivel 16 &gt;</span>
+                                <img src="https://66.media.tumblr.com/tumblr_ma4fpfD6Tu1rfjowdo1_500.gif" alt="Charmeleon" width="80">
+                                <span>&gt; Nivel 36 &gt;</span>
+                                <img src="https://media.tenor.com/9nBgEcu8e2IAAAAj/charizard-pokemon.gif" alt="Charizard" width="80">
+                            </div>
+                        </div>
+                        <div class="tab-panel panel-4">
+                            <div class="stat-item"><label>PS: 78</label><progress value="78" max="500"></progress></div>
+                            <div class="stat-item"><label>Ataque: 84</label><progress value="84" max="500"></progress></div>
+                            <div class="stat-item"><label>Defensa: 78</label><progress value="78" max="500"></progress></div>
+                            <div class="stat-item"><label>At. Esp: 109</label><progress value="109" max="500"></progress></div>
+                            <div class="stat-item"><label>Def. Esp: 85</label><progress value="85" max="500"></progress></div>
+                            <div class="stat-item"><label>Velocidad: 100</label><progress value="100" max="500"></progress></div>
+                        </div>
+                        <div class="tab-panel panel-5">
+                            <h4>Debilidades</h4>
+                            <p><strong>Sufre x4:</strong> Roca</p>
+                            <p><strong>Sufre x2:</strong> Agua, Eléctrico</p>
+                            <p><strong>Resiste x0.5:</strong> Lucha, Acero, Fuego, Hada</p>
+                            <p><strong>Resiste x0.25:</strong> Bicho, Planta</p>
+                            <p><strong>Inmune:</strong> Tierra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="Kalos" class="pokemon-section fade-in tipo-agua tipo-siniestro">
+        <article class="pokemon_card">           
+            <div class="pokemon_header">
+                <h3>Greninja</h3>
+                <span class="gen-tag">GEN 6</span>
+            </div>
+            <div class="pokemon_body">
+                <div class="pokemon_visual">
+                    <img src="https://play.pokemonshowdown.com/sprites/xyani/greninja.gif" alt="Greninja" class="poke-gif">
+                </div>
+                <div class="tabs-logic">
+                    <input type="radio" name="tabs-gren" id="gren-1" checked>
+                    <input type="radio" name="tabs-gren" id="gren-2">
+                    <input type="radio" name="tabs-gren" id="gren-3">
+                    <input type="radio" name="tabs-gren" id="gren-4">
+                    <input type="radio" name="tabs-gren" id="gren-5">
+
+                    <nav class="tabs-header">
+                        <label for="gren-1" class="tab-btn">Características</label>
+                        <label for="gren-2" class="tab-btn">Ubicación</label>
+                        <label for="gren-3" class="tab-btn">Evolución</label>
+                        <label for="gren-4" class="tab-btn">Estadísticas</label>
+                        <label for="gren-5" class="tab-btn">Efectividad</label>
+                    </nav>
+                    <div class="tabs-content">
+                        <div class="tab-panel panel-1">
+                            <p><strong>Descripción:</strong> Se caracteriza por su apariencia de rana ninja, gran velocidad y habilidad para comprimir agua en shurikens capaces de cortar metal.</p>
+                            <p><strong>Tipo:</strong> Agua / Siniestro</p>
+                            <p><strong>Megaevolución:</strong> Mega Greninja</p>
+                        </div>
+                        <div class="tab-panel panel-2">
+                            <p><strong>Ubicación:</strong> No aparece en ninguna ruta, solo se puede tener al escoger la primera variante al inicio del juego.</p>
+                        </div>
+                        <div class="tab-panel panel-3">
+                            <div class="evolution-flex">
+                                <img src="https://play.pokemonshowdown.com/sprites/xyani/froakie.gif" alt="Froakie" width="50">
+                                <span>&gt; Nivel 16 &gt;</span>
+                                <img src="https://play.pokemonshowdown.com/sprites/xyani/frogadier.gif" alt="Frogadier" width="80">
+                                <span>&gt; Nivel 36 &gt;</span>
+                                <img src="https://play.pokemonshowdown.com/sprites/xyani/greninja.gif" alt="Greninja" width="100">
+                            </div>
+                        </div>
+                        <div class="tab-panel panel-4">
+                            <div class="stat-item"><label>PS: 72</label><progress value="72" max="500"></progress></div>
+                            <div class="stat-item"><label>Ataque: 95</label><progress value="95" max="500"></progress></div>
+                            <div class="stat-item"><label>Defensa: 67</label><progress value="67" max="500"></progress></div>
+                            <div class="stat-item"><label>At. Esp: 103</label><progress value="103" max="500"></progress></div>
+                            <div class="stat-item"><label>Def. Esp: 71</label><progress value="71" max="500"></progress></div>
+                            <div class="stat-item"><label>Velocidad: 122</label><progress value="122" max="500"></progress></div>
+                        </div>
+                        <div class="tab-panel panel-5">
+                            <h4>Debilidades</h4>
+                            <p><strong>Sufre x2:</strong> Lucha, Bicho, Planta, Eléctrico, Hada</p>
+                            <p><strong>Resiste x0.5:</strong> Fantasma, Acero, Fuego, Agua, Hielo, Siniestro</p>
+                            <p><strong>Inmune:</strong> Psíquico</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="Hoenn" class="pokemon-section fade-in tipo-fuego">
+        <article class="pokemon_card">           
+            <div class="pokemon_header">
+                <h3>Blaziken</h3>
+                <span class="gen-tag">GEN 3</span>
+            </div>
+            <div class="pokemon_body">
+                <div class="pokemon_visual">
+                    <img src="https://www.pkparaiso.com/imagenes/ultra_sol_ultra_luna/sprites/animados-sinbordes-gigante/blaziken.gif" alt="Blaziken" class="poke-gif">
+                </div>
+                <div class="tabs-logic">
+                    <input type="radio" name="tabs-blaz" id="blaz-1" checked>
+                    <input type="radio" name="tabs-blaz" id="blaz-2">
+                    <input type="radio" name="tabs-blaz" id="blaz-3">
+                    <input type="radio" name="tabs-blaz" id="blaz-4">
+                    <input type="radio" name="tabs-blaz" id="blaz-5">
+
+                    <nav class="tabs-header">
+                        <label for="blaz-1" class="tab-btn">Características</label>
+                        <label for="blaz-2" class="tab-btn">Ubicación</label>
+                        <label for="blaz-3" class="tab-btn">Evolución</label>
+                        <label for="blaz-4" class="tab-btn">Estadísticas</label>
+                        <label for="blaz-5" class="tab-btn">Efectividad</label>
+                    </nav>
+                    <div class="tabs-content">
+                        <div class="tab-panel panel-1">
+                            <p><strong>Descripción:</strong> Se caracteriza por su apariencia de gallo de pelea humanoide, gran fuerza en sus patas capaces de saltar edificios de 30 pisos y la habilidad de lanzar llamas por sus muñecas en combate.</p>
+                            <p><strong>Tipo:</strong> Fuego / Lucha</p>
+                            <p><strong>Megaevolución:</strong> Mega Blaziken</p>
+                        </div>
+                        <div class="tab-panel panel-2">
+                            <p><strong>Ubicación:</strong> No aparece en ninguna ruta, solo se puede tener al escoger la primera variante al inicio del juego.</p>
+                        </div>
+                        <div class="tab-panel panel-3">
+                            <div class="evolution-flex">
+                                <img src="https://64.media.tumblr.com/b18bd1318c2269ce07cd7972b69c8fe8/tumblr_n57keb87Zp1r4e6sio2_250.gifv" alt="Torchic" width="90">
+                                <span>&gt; Nivel 16 &gt;</span>
+                                <img src="https://media.pokemoncentral.it/wiki/4/48/Sprxym0256.gif" alt="Combusken" width="110">
+                                <span>&gt; Nivel 36 &gt;</span>
+                                <img src="https://www.pkparaiso.com/imagenes/ultra_sol_ultra_luna/sprites/animados-sinbordes-gigante/blaziken.gif" alt="Blaziken" width="60">
+                            </div>
+                        </div>
+                        <div class="tab-panel panel-4">
+                            <div class="stat-item"><label>PS: 80</label><progress value="80" max="500"></progress></div>
+                            <div class="stat-item"><label>Ataque: 120</label><progress value="120" max="500"></progress></div>
+                            <div class="stat-item"><label>Defensa: 70</label><progress value="70" max="500"></progress></div>
+                            <div class="stat-item"><label>At. Esp: 110</label><progress value="110" max="500"></progress></div>
+                            <div class="stat-item"><label>Def. Esp: 70</label><progress value="70" max="500"></progress></div>
+                            <div class="stat-item"><label>Velocidad: 80</label><progress value="80" max="500"></progress></div>
+                        </div>
+                        <div class="tab-panel panel-5">
+                            <h4>Debilidades</h4>
+                            <p><strong>Sufre x2:</strong> Volador, Tierra, Agua, Psíquico</p>
+                            <p><strong>Resiste x0.5:</strong> Acero, Fuego, Planta, Hielo, Siniestro</p>
+                            <p><strong>Inmune:</strong> Bicho</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>Pokedex chafa hecha por: MARCELO OYANEDEL, BENJAMÍN VAEZO, RICARDO TAPIA</p>
+</footer>
+
+</body>
+</html>
